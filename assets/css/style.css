@@ -285,8 +285,35 @@ img {
     margin: 0 auto;
     text-align: center;
 }
-
 /* Home Page Cards CSS End*/
+.home-signup-section {
+    padding: 30px 0;
+}
+.home-signup-wrapper {
+    text-align: center;
+}
+.home-signup-input-wrapper {
+    padding-top: 20px;
+}
+input.home-signup-input {
+    width: 50%;
+    font-size: 16px;
+    padding: 10px 15px;
+    position: relative;
+}
+input.home-signup-submit-button {
+    display: inline-block;
+    background: #0097D2;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    position: absolute;
+}
+/* Home Page Signup CSS Start */
+
+/* Home Page Signup CSS End */
 
 /* Featured Listings CSS Start */
 .featured-listings-cards-wrapper {
@@ -309,7 +336,4 @@ img {
     font-weight: 700;
     color: #000;
 }
-
-
-
 /* What To Expect CSS End */
