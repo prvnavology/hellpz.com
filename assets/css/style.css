@@ -391,7 +391,52 @@ section.what-to-expect {
   .logo-bottom img {
     width: 100%;
     max-width: 150px;
-    text-align: center;
+    text-align: center  ;
   }
-
   /* Footer CSS End */
+  
+  /* Pages CSS Start */
+  /* Read More Functionality CSS Start */
+
+  @import url('https://fonts.googleapis.com/css?family=Raleway');
+#text{
+display:none;
+}
+.btn-container{
+  margin: auto;
+  height:44px;
+  width:166.23px;
+  
+}
+a:active{
+  color:#ffd323;
+}
+body{
+   background-color:aqua;
+}
+button{
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  cursor:pointer;
+  border:none;
+  padding:8px;
+  font-size:20px;
+  background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  color:white;
+  font-family:cursive;
+  box-sizing:border-box;
+}
+body{
+  font-family:'Raleway',monospace;
+  font-size:20px;
+  color:white;
+}
+  
+ /* Read More Functionality CSS End */
+
+
+
+
+  /* Pages CSS End */
