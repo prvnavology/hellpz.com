@@ -7,17 +7,25 @@ $(document).ready(function () {
     });
   });
 
-  $(document).ready(function() {
-    $("#toggle").click(function() {
-      var elem = $("#toggle").text();
-      if (elem == "Read More") {
-        //Stuff to do when btn is in the read more state
-        $("#toggle").text("Read Less");
-        $("#text").slideDown();
-      } else {
-        //Stuff to do when btn is in the read less state
-        $("#toggle").text("Read More");
-        $("#text").slideUp();
+function toggleText(moreId,buttonId){
+  var moreText=document.getElementById(moreId);
+  var buttonText=document.getElementById(buttonId);
+  
+  if(moreText.style.display==="none"){
+    moreText.style.display="block";
+    buttonText.innerHTML="Read Less";
       }
-    });
-  });
+      else{
+        moreText.style.display="none";
+        buttonText.innerHTML="Read More";
+      }
+}
+
+
+$('.subpage-readmore-btn').click(function(e) {
+  e.preventDefault();
+  // console.log('click');
+  $(this).parent().prev().slideToggle('slow');
+  // $('.subpage-exp-content').slideToggle('slow');
+  $(this).text($(this).text() == 'Read Less' ? 'Read More' : 'Read Less');
+});

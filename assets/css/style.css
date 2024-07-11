@@ -397,44 +397,102 @@ section.what-to-expect {
   
   /* Pages CSS Start */
   /* Read More Functionality CSS Start */
-
-  @import url('https://fonts.googleapis.com/css?family=Raleway');
-#text{
-display:none;
-}
-.btn-container{
-  margin: auto;
-  height:44px;
-  width:166.23px;
   
-}
-a:active{
-  color:#ffd323;
-}
-body{
-   background-color:aqua;
-}
-button{
-  user-select:none;
-  -webkit-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  cursor:pointer;
-  border:none;
-  padding:8px;
-  font-size:20px;
-  background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-  color:white;
-  font-family:cursive;
-  box-sizing:border-box;
-}
-body{
-  font-family:'Raleway',monospace;
-  font-size:20px;
-  color:white;
-}
-  
+ 
  /* Read More Functionality CSS End */
+.pages-cards-section{
+  padding: 50px 0;
+}
+
+.pages-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+ .pages-cards{
+  width: 49%;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.pages-cards:last-child{
+  width: 100%;
+}
+
+.pages-cards-image {
+  overflow: hidden;
+  height: 330px;
+  width: 100%;
+}
+.pages-cards-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.pages-cards-content {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+.pages-cards-content h2 {
+  font-size: 28px;
+  }
+.card-content-group {
+  margin: 10px 0;
+  width: 100%;  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.text-center {
+  text-align: center;
+}
+.pages-cards-content h2{
+  margin-bottom: 5px;
+}
+.pages-cards-content h3{
+  margin-bottom: 3px;
+}
+.card-content-group p {
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.pages-cards-content i,.pages-cards-content .heading-like {
+  color: #0097d2;
+  margin-right: 10px;
+}
+.btn-darkred-block {
+  margin-top: 10px;
+  color: #fff;
+  background: #0097d2;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.subpage-exp-content {
+  margin-top: 10px;
+  font-weight: 500;
+  display: none;
+}
+.pages-link-btn {
+  margin-top: 10px;
+  color: #fff;
+  background: #0097d2;
+  border: none;
+  outline: none;
+  padding: 9px 19px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+
+
 
 
 
