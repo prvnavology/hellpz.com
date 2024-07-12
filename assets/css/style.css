@@ -48,7 +48,6 @@ img {
 
 /* Global CSS End */
 
-
 /* Header CSS Start */
 .website-header {
   position: sticky;
@@ -195,23 +194,23 @@ img {
 
 /* Pages Banner CSS Start */
 .pages-banner-image {
-  height: 400px;
+  height: 450px;
 }
 .pages-banner-text h1 {
   font-size: 45px;
+}
+.pages-banner-text-group {
+  animation: slideside 1.5s ease-in-out forwards;
+  opacity: 0;
+  transform: translateX(-200px);
+  text-align: center;
+}
+@keyframes slideside {
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
-  .pages-banner-text-group {
-    animation: slideside 1.5s ease-in-out forwards;
-    opacity: 0;
-    transform: translateX(-200px);
-    text-align: center;
-  }
-  @keyframes slideside {
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
+}
 /* Pages Banner CSS Start */
 
 /* Home Page Cards CSS Start */
@@ -276,7 +275,6 @@ img {
   cursor: pointer;
 }
 
-
 .home-page-cards-text h3 {
   max-width: 155px;
   margin: 0 auto;
@@ -319,7 +317,6 @@ input.home-signup-submit-button {
   border: none;
   position: absolute;
 }
-
 
 /* Home Page Signup CSS End */
 
@@ -460,7 +457,6 @@ section.what-to-expect {
 }
 /* Read More Functionality CSS Start */
 
-
 /* Read More Functionality CSS End */
 .pages-intro-wrapper h1 {
   text-align: center;
@@ -498,7 +494,6 @@ section.what-to-expect {
 
 .pages-cards:last-child {
   width: 100%;
- 
 }
 
 .pages-cards-image {
@@ -511,6 +506,12 @@ section.what-to-expect {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  filter: grayscale(100%);
+  transition: 0.6s all ease-in-out;
+}
+.pages-cards-image img:hover {
+  filter: saturate(100%);
+  transform: scale(1.2);
 }
 
 .pages-cards-content {
@@ -558,12 +559,17 @@ section.what-to-expect {
 .btn-darkred-block {
   margin-top: 10px;
   color: #fff;
-  background: #0097d2;
+  background: #2bb7ee;
   border: none;
   outline: none;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 16px;
+  transition: 0.3s all ease-in-out;
+}
+.btn-darkred-block:hover{
+  background-color: #0097d2;
+
 }
 
 .subpage-exp-content {
@@ -575,13 +581,18 @@ section.what-to-expect {
 .pages-link-btn {
   margin-top: 10px;
   color: #fff;
-  background: #0097d2;
+  background: #2bb7ee;
   border: none;
   outline: none;
   padding: 9px 19px;
   border-radius: 5px;
   font-size: 15px;
   margin-left: 20px;
+  transition: 0.3s all ease-in-out;
+}
+.pages-link-btn:hover {
+  background: #0097d2;
+
 }
 /* After Card Text CSS Start */
 .after-cards-text {
@@ -591,7 +602,7 @@ section.what-to-expect {
   text-align: center;
   max-width: 1060px;
   margin: 0 auto;
- color:#545556;
+  color: #545556;
 }
 /* After Card Text CSS Start */
 
@@ -620,7 +631,7 @@ section.what-to-expect {
 }
 
 #contact h3 {
-  color: #F96;
+  color: #f96;
   display: block;
   font-size: 30px;
   font-weight: 400;
@@ -633,14 +644,14 @@ section.what-to-expect {
 }
 
 fieldset {
-  border:none;
-   margin: 0 0 10px;
+  border: none;
+  margin: 0 0 10px;
   /* min-width: 45%; */
   padding: 0;
   width: 45%;
   outline: none;
 }
-fieldset:nth-child(5){
+fieldset:nth-child(5) {
   width: 93%;
 }
 fieldset:last-child {
@@ -653,14 +664,14 @@ fieldset:last-child {
 #contact input[type="url"],
 #contact textarea {
   width: 100%;
-  border: 1px solid #CCC;
-  background: #FFF;
+  border: 1px solid #ccc;
+  background: #fff;
   margin: 0 0 5px;
   padding: 10px;
-outline: none;
-border: none;
-overflow: hidden;
-border-radius: 5px;
+  outline: none;
+  border: none;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 #contact input[type="text"]:hover,
@@ -671,7 +682,6 @@ border-radius: 5px;
   -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
-  
 }
 
 #contact textarea {
@@ -685,7 +695,7 @@ border-radius: 5px;
   width: 100%;
   border: none;
   background: #0097d2;
-  color: #FFF;
+  color: #fff;
   margin: 0 0 5px;
   padding: 10px;
   font-size: 16px;
@@ -693,7 +703,7 @@ border-radius: 5px;
 }
 
 #contact button[type="submit"]:hover {
-  background: #09C;
+  background: #09c;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
@@ -737,9 +747,53 @@ border-radius: 5px;
   text-align: center;
   margin: 0 auto;
 }
-
 /* Pages Disclaimer CSS Start */
 
+/* About US PAge CSS Start */
+.about-us-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about-us-wrapper>p {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+.about-us-wrapper {
+  padding-bottom: 50px;
+}
+
+.about-us-card-image {
+  width: 40%;
+}
+.about-us-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-us-card-content {
+  width: 60%;
+  height: 200px;
+  padding: 15px;
+}
+
+
+.about-us-group{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.about-us-group img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+/* About US PAge CSS End*/
 
 
 /* Pages CSS End */
