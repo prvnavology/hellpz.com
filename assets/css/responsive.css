@@ -14,6 +14,7 @@
         flex-direction: column;
         justify-content: center;
     }
+
     .menuToggle .menu-bar {
         transform: translateX(0);
         z-index: 50;
@@ -24,19 +25,24 @@
         flex-direction: column;
         z-index: 50;
     }
+
     .menu-bar ul li a {
         color: #fff;
         text-align: left;
         font-size: 12px;
         line-height: 10px;
-      }
-      .menu-bar ul li a.active {
+        font-weight: 400;
+    }
+
+    .menu-bar ul li a.active {
         color: #0097d2;
-      }
+    }
+
     .wedsite-header-wrapper {
         justify-content: space-between;
         flex-direction: row;
     }
+
     .menu-icon {
         display: block;
     }
@@ -49,4 +55,403 @@
         color: #fff;
         text-align: end;
     }
+
+    .banner-image {
+        height: 450px;
+    }
+
+    .banner-text h1 {
+        font-size: 60px;
+    }
+
+    .banner-text h2 {
+        font-size: 26px;
+        max-width: 700px;
+        margin: 0px auto;
+    }
+
+    .logo-top img {
+        width: 80%;
+        vertical-align: middle;
+    }
+
+    .home-page-cards-section {
+        padding: 40px 0;
+    }
+
+    .home-page-info-wrapper p {
+        max-width: 780px;
+        font-size: 15px;
+    }
+
+    .home-page-cards-wrapper {
+        padding-top: 35px;
+    }
+
+    .home-page-cards {
+        width: 32%;
+        margin-bottom: 8px;
+    }
+
+    .home-page-cards:nth-child(4) {
+        width: 49%;
+    }
+
+    .home-page-cards:nth-child(5) {
+        width: 49%;
+    }
+
+    input.home-signup-input {
+        width: 80%;
+    }
+
+    .featured-listings-cards-wrapper {
+        padding-top: 40px;
+    }
+
+    .footer-links {
+        order: 1;
+    }
+
+    .footer-quick-links {
+        order: 1;
+    }
+
+    /* .footer-wrapper {
+        max-width: 570px;     for aligning logo of top and bottom
+
+        margin-right: auto;
+    } */
+
+    /* Pages CSS Start */
+
+
+    /* Pages CSS End */
+
+
+}
+
+@media screen and (max-width:767px) {
+    .banner-image {
+        height: 380px;
+    }
+
+    .banner-text h1 {
+        font-size: 55px;
+    }
+
+    .banner-text h2 {
+        font-size: 25px;
+        max-width: 490px;
+        margin: 5px auto;
+    }
+
+    .home-page-info-wrapper p {
+        max-width: 600px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .home-page-cards-text h3 {
+        max-width: 170px;
+        font-size: 19px;
+    }
+
+    .logo-top img {
+        width: 70%;
+        vertical-align: middle;
+    }
+
+
+    input.home-signup-submit-button {
+        border-radius: 0px;
+    }
+
+    .featured-listings-cards-wrapper {
+        padding-top: 35px;
+    }
+
+    .what-to-expect-wrapper ul li {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .disclaimer-wrapper p {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0 10px;
+    }
+
+    .footer-links ul li a,
+    .footer-quick-links ul li a {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    /* Pages CSS Start */
+    .pages-banner-image {
+        height: 330px;
+    }
+    .pages-banner-text h1 {
+        font-size: 35px;
+        max-width: 350px;
+    }
+
+    /* Pages CSS End */
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .banner-image {
+        height: 300px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .banner-text h2 {
+        font-size: 20px;
+        max-width: 390px;
+        margin: 5px auto;
+    }
+
+    .home-page-cards-section {
+        padding: 30px 0;
+    }
+
+    .home-page-info-wrapper p {
+        max-width: 450px;
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .home-page-cards {
+        width: 48%;
+    }
+
+
+    .home-page-cards:last-child {
+        width: 100%;
+    }
+
+    .home-page-cards-text h3 {
+        max-width: 280px;
+        font-size: 23px;
+    }
+
+    input.home-signup-input {
+        width: 90%;
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    input.home-signup-submit-button {
+        padding: 10px;
+        font-size: 15px;
+        margin-left: 0;
+        width: 40%;
+        margin-top: 7px;
+        border: 1px solid #0097d2;
+    }
+
+    .what-to-expect-wrapper h3 {
+        margin-bottom: 10px;
+    }
+
+    .heading-like {
+        font-size: 15px;
+    }
+
+    section.what-to-expect {
+        padding: 30px 0;
+    }
+
+    .what-to-expect-wrapper ul li {
+        font-size: 13px;
+
+    }
+
+    .disclaimer-wrapper p {
+        font-size: 13px;
+        padding: 0px 16px;
+    }
+
+
+
+    .footer-items {
+        width: 50%;
+    }
+
+    .footer-wrapper {
+
+        justify-content: flex-start;
+    }
+
+    .footer-links ul li a,
+    .footer-quick-links ul li a {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .home-signup-section {
+        padding-bottom: 25px;
+    }
+
+    .featured-listings-wrapper h2 {
+
+        font-size: 23px;
+    }
+
+    .featured-listings-cards-wrapper {
+        padding-top: 25px;
+    }
+
+    /* Pages CSS Start */
+    .pages-banner-text h1 {
+        max-width: 350px;
+        font-size: 33px;
+    }
+
+    /* Pages CSS End */
+
+
+
+}
+
+
+
+
+@media screen and (max-width:480px) {
+    .banner-text h1 {
+        font-size: 35px;
+    }
+
+    .banner-image {
+        height: 240px;
+    }
+
+    .banner-text h2 {
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+
+    .home-page-info-wrapper p {
+        max-width: 400px;
+        padding: 10px;
+    }
+
+    .home-page-cards-wrapper {
+        padding-top: 30px;
+    }
+
+    .home-page-cards {
+        width: 100%;
+    }
+
+    .home-page-cards:nth-child(4) {
+        width: 100%;
+    }
+
+    .home-signup-section {
+        padding-bottom: 35px;
+    }
+
+    .home-signup-wrapper h3 {
+        font-size: 16px;
+    }
+
+    input.home-signup-input {
+        width: 90%;
+        font-size: 13px;
+        padding: 7px 8px;
+    }
+
+    .home-signup-input-wrapper {
+        padding-top: 10px;
+    }
+
+    input.home-signup-submit-button {
+        padding: 10px;
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 13px;
+        width: 44%;
+    }
+
+    .featured-listings-cards-wrapper {
+        padding-top: 35px;
+    }
+
+    .what-to-expect-wrapper h3 {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+
+    .what-to-expect-wrapper h4 {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .disclaimer-wrapper p {
+        font-size: 12px;
+    }
+
+
+    .footer {
+        padding: 35px 0px;
+    }
+
+    .footer-wrapper {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-items {
+        width: 70%;
+        margin-bottom: 25px;
+    }
+
+    .footer-links ul,
+    .footer-quick-links ul {
+        margin-top: 5px;
+    }
+
+    .footer-links ul li a,
+    .footer-quick-links ul li a {
+        font-size: 12px;
+    }
+
+    .featured-listings-wrapper h2 {
+        font-size: 21px;
+    }
+
+    /* Pages CSS Start */
+    .pages-banner-image {
+        height: 220px;
+    }
+    .pages-banner-text h1 {
+        font-size: 25px;
+        max-width: 300px;
+    }
+
+    /* Pages CSS End */
+
+
+
+
+
+
 }

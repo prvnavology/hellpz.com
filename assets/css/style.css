@@ -298,16 +298,15 @@ img {
 }
 
 input.home-signup-input {
-  width: 50%;
+  width: 70%;
   display: inline-block;
   font-size: 16px;
   padding: 10px 15px;
-  position: relative;
-  outline: none;
+    outline: none;
   border: 2px solid #0097d2;
 }
 
-input.home-signup-submit-button {
+.home-signup-submit-button {
   display: inline-block;
   background: #0097d2;
   color: #fff;
@@ -315,8 +314,9 @@ input.home-signup-submit-button {
   font-size: 16px;
   outline: none;
   border: none;
-  position: absolute;
-}
+  margin-left: -6px;
+
+ }
 
 /* Home Page Signup CSS End */
 
@@ -343,7 +343,8 @@ input.home-signup-submit-button {
 }
 
 section.what-to-expect {
-  padding: 50px 0 0 0;
+  padding: 40px 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .what-to-expect-wrapper h3 {
@@ -364,7 +365,7 @@ section.what-to-expect {
 
 /* disclaimer section CSS Start */
 .disclaimer {
-  padding: 50px 0;
+  padding: 35px 0;
 }
 
 .disclaimer-wrapper p {
