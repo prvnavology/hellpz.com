@@ -906,7 +906,6 @@ fieldset:last-child {
   border-radius: 5px;
 }
 .privacy-policy-group p {
-  font-weight: 500;
   margin-top: 7px;
   color: #545556;
 }
@@ -927,7 +926,6 @@ fieldset:last-child {
 }
 .terms-conditions-group p {
   color: #545556;
-  font-weight: 500;
 }
 .terms-conditions-group h3 {
   margin-bottom: 6px;
@@ -939,8 +937,7 @@ fieldset:last-child {
   list-style: disc;
   margin-left: 20px;
   margin-bottom: 2px;
-  font-weight: 500;
-  color: #545556;
+   color: #545556;
 }
 .terms-conditions-group h4 {
   margin: 3px 0;
