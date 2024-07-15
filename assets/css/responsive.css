@@ -9,7 +9,7 @@
       background-color: #000;
       transform: translateY(-100%);
       transition: all 0.3s linear;
-      z-index: 50;
+      z-index: 100;
       color: #fff;
       flex-direction: column;
       justify-content: center;
@@ -17,7 +17,7 @@
   
     .menuToggle .menu-bar {
       transform: translateX(0);
-      z-index: 50;
+      z-index: 100;
       justify-content: flex-start;
     }
   
@@ -198,9 +198,12 @@
     }
   
     .logo-top img {
-      width: 70%;
+      width: 75%;
       vertical-align: middle;
     }
+    .menu-icon i {
+      font-size: 18px;
+  }
   
     input.home-signup-submit-button {
       border-radius: 0px;
@@ -654,6 +657,9 @@
       padding: 0 10px;
       max-width: 370px;
     }
+    .pages-cards {
+        margin-bottom: 20px;
+  }
   
     .btn-darkred-block {
       padding: 6px 10px;
