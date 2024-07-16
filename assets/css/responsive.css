@@ -307,14 +307,8 @@
     height: 190px;
   }
 
-  .btn-darkred-block {
-    padding: 6px 15px;
-    font-size: 14px;
-  }
-
   .pages-link-btn {
     margin-top: 7px;
-    padding: 8px 5px;
     margin-left: 10px;
   }
 
@@ -502,6 +496,7 @@
     height: 200px;
   }
 
+
   .after-cards-text-wrapper p {
     /* max-width: 470px; */
     font-size: 13px;
@@ -675,15 +670,8 @@
     margin-bottom: 20px;
   }
 
-  .btn-darkred-block {
-    padding: 6px 10px;
-    font-size: 14px;
-  }
 
-  .pages-link-btn {
-    padding: 8px 5px;
 
-  }
 
   .after-cards-text-wrapper p {
     /* max-width: 360px; */
