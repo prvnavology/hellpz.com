@@ -262,7 +262,7 @@ button{
 }
 
 .home-page-cards:hover .home-page-cards-image img{
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 .home-page-cards-text {
   text-align: center;
@@ -631,7 +631,7 @@ section.what-to-expect {
   padding: 20px;
   width: 100%;
   text-align: center;
-   min-height:205px  /*To make cards height equal */
+   min-height:237px  /*To make cards height equal */
 }
 
 .pages-cards-content h2 {
