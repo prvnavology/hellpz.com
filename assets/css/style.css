@@ -315,7 +315,7 @@ button{
 }
 
 input.home-signup-input {
-  width: 50%;
+  width: 40%;
   display: inline-block;
   font-size: 16px;
   padding: 10px 15px;
@@ -331,7 +331,7 @@ input.home-signup-input {
   font-size: 16px;
   outline: none;
   border: none;
-  margin-left: -6px;
+  margin-left:5px;
   cursor: pointer;
 }
 .home-signup-submit-button:hover{
