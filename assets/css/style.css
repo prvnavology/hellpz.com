@@ -96,7 +96,7 @@ button{
 .menu-bar ul li a {
   padding: 0px 2px;
   display: inline-block;
-  font-weight: 600;
+  font-weight:600;
   color: #545556;
   line-height: 30px;
   transition: 0.5sec all ease-in;
