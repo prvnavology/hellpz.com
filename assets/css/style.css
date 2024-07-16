@@ -677,12 +677,14 @@ section.what-to-expect {
   background: #2bb7ee;
   border: none;
   outline: none;
-  padding: 8px 0px;
+  padding: 10px 5px;
   border-radius: 5px;
   font-size: 14px;
   transition: 0.3s all ease-in-out;
   cursor: pointer;
-  width: 115px;
+  min-width: 115px;
+  line-height: 14px;
+  display: inline-block;
 }
 .btn-darkred-block:hover {
   background-color: #0097d2;
@@ -690,8 +692,9 @@ section.what-to-expect {
 
 .subpage-exp-content {
   margin-top: 10px;
-  font-weight: 500;
   display: none;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .pages-link-btn {
@@ -701,13 +704,14 @@ section.what-to-expect {
   background: #2bb7ee;
   border: none;
   outline: none;
-  padding: 6px 0px;
+  padding: 10px 5px;
   border-radius: 5px;
   font-size: 14px;
   margin-left: 20px;
-  font-weight: 400  ;
+  font-weight: 400;
   transition: 0.3s all ease-in-out;
-  width: 115px;
+  min-width: 115px;
+  line-height: 14px;
 }
 .pages-link-btn:hover {
   background: #0097d2;
